@@ -3,8 +3,8 @@ import google.generativeai as genai
 from discord.ext import commands
 
 # 設定 Discord Bot Token 和 Gemini API Key
-DISCORD_TOKEN = "MTI2MTY2MDMxNTg5MzEwODgyOA.GPYAW_.SnERQAw7hBaBYtt2_46sODQA-w_J1eBTjrJ4gQ"
-GEMINI_API_KEY = "AIzaSyCgwvMRFOg331rOnTuK7TQXysSQE3LR-XE"
+DISCORD_TOKEN = ""
+GEMINI_API_KEY = ""
 
 # 初始化 Gemini API
 genai.configure(api_key=GEMINI_API_KEY)
