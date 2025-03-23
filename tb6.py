@@ -70,6 +70,6 @@ async def timelist(ctx: commands.Context):
 
 send_message.before_loop(bot.wait_until_ready)
 
-bot.run('MTI2MTY2MDMxNTg5MzEwODgyOA.GPYAW_.SnERQAw7hBaBYtt2_46sODQA-w_J1eBTjrJ4gQ')  # Bot Token
+bot.run('token')  # Bot Token
 
 #leowu做的小人機for太初群
